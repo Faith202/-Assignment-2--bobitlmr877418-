@@ -1,1 +1,13 @@
-# Hotel management systemPrint(‘1. Make an order. \n 2. Cancel the order.’)choice = int(input('Enter your choice: '))if choice == 1:  print(‘continue to the order table’);if choice == 2:  print(‘the order cancelled successfully’);else:  print('The order you place is invalid, try again’);
+# Hotel management system
+print(â€˜1. Make an order. \n 2. Cancel the order.â€™)
+
+choice = int(input('Enter your choice: '))
+
+if choice == 1:
+  print(â€˜continue to the order tableâ€™);
+if choice == 2:
+  print(â€˜the order cancelled successfullyâ€™);
+else:
+  print('The order you place is invalid, try againâ€™);
+
+
